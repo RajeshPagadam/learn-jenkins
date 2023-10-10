@@ -18,10 +18,10 @@ pipeline {
         }
     }
 
-    post {
-    always {
-        echo 'sending mail'
-        mail bcc: 'pagadamr@gmail.com', body: 'test execution completed success ', cc: 'pagadamr@gmail.com', from: '', replyTo: '', subject: 'test execution', to: 'pagadamr@gmail.com'
-     }
-    }
+#    post {
+#    always {
+#        echo 'sending mail'
+#        mail bcc: 'pagadamr@gmail.com', body: 'test execution completed success ', cc: 'pagadamr@gmail.com', from: '', replyTo: '', subject: 'test execution', to: 'pagadamr@gmail.com'
+#    }
+#    }
 }
