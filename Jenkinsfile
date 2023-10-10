@@ -21,7 +21,7 @@ pipeline {
     post {
     always {
         echo 'sending mail'
-        mail bcc: 'test@gmail.com', body: 'test execution completed success', cc: 'pagadamrajesh1@gmal.com', from: '', replyTo: '', subject: '', to: 'pagadamr@gmal.com'
+        mail bcc: 'pagadamr@gmail.com', body: 'test execution completed success ', cc: 'pagadamr@gmail.com', from: '', replyTo: '', subject: 'test execution', to: 'pagadamr@gmail.com'
      }
     }
 }
