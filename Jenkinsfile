@@ -20,4 +20,13 @@ pipeline {
             }
     }
 
+     stage ('Three'){
+                 steps {
+
+                  sh 'echo 3 '
+                 }
+
+                }
+        }
+
 }
